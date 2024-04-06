@@ -1,4 +1,8 @@
-function HomePage() {
-  return <h1>Hello, I am Umair haroon  and this is my first Next.js project.</h1>
+import HomePage from "./home/page";
+
+function Home() {
+  return (
+<HomePage/>
+  )
 }
-export default HomePage;
+export default Home;
